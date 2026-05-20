@@ -1,0 +1,104 @@
+body{
+    background-color:#c5ebd6 ;
+    margin: 0px;
+}
+div {
+    background-color: rgba(28, 90, 20, 0.966);
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.5);
+    height: 300px;
+}
+header{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+header >h1 {
+    margin: 0px;
+    padding: 50px;
+}
+header > p {
+    padding-top: 20px;
+    margin: 0px;
+}
+nav {
+    padding: 50px;
+    margin: 0px;
+    color: white;
+}
+ nav >a {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    margin: 20px;
+    font-weight: bold;
+}
+nav > a:hover {
+    color: rgb(17, 0, 255);
+    background-color: rgba(255, 255, 255, 0.747);
+}
+main {
+    margin: 0 auto;
+    min-width: 320px;
+    max-width: 750px;
+    text-indent: 30px;
+    line-height: 2em;
+ }
+ main > h2 {
+    text-align: center;
+    font-family: var(--fonteandroid);
+}
+main > article {
+    background-color: rgba(71, 177, 117, 0.89);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.377);
+}
+main > article > h2 {
+    font-family: var(--fonteandroid);
+    background-image: linear-gradient(to right, rgb(0, 255, 85), transparent);
+}
+aside {
+    background-color: rgba(161, 238, 151, 0.966);
+    padding: 20px 0px 20px 0px;
+    margin: 20px 0px 20px 0px;
+    border-radius: 10px;
+    box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.5);
+}
+aside > p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+aside > ul {
+    columns: 2;
+}
+aside > ul > p {
+    font-weight: bold;
+    font-size: 20px;
+}
+footer {
+    text-align: center;
+    color: white;
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+}
+footer > p {
+    margin: 0px;
+    padding: 0px;
+}
+p#TI {
+    text-align: center;
+    font-weight: bold;
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
