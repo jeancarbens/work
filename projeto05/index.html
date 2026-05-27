@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculadora</title>
+    <link rel="stylesheet" href="j.css">
+</head>
+<body>
+    <header>MINHA CALCULADORA</header>
+    <section id="cal">
+        <div id="calculadora"></div>
+        <div id="calc">
+        <button id="0" class="num" onclick="apende('0')">0</button>
+        <button id="1" class="num" onclick="apende('1')">1</button>
+        <button id="2" class="num" onclick="apende('2')">2</button>
+         <button id="+" class="ope" onclick="operadorFunc('+')">+</button>
+        <br>
+        <button id="3" class="num" onclick="apende('3')">3</button>
+        <button id="4" class="num" onclick="apende('4')">4</button>
+        <button id="5" class="num" onclick="apende('5')">5</button>
+         <button id="-" class="ope" onclick="operadorFunc('-')">-</button>
+        <br>
+        <button id="6" class="num" onclick="apende('6')">6</button>
+        <button id="7" class="num" onclick="apende('7')">7</button>
+        <button id="8" class="num" onclick="apende('8')">8</button>
+        <button id="/" class="ope" onclick="operadorFunc('/')">/</button>
+        <br>
+        <button id="9" class="num" onclick="apende('9')">9</button>
+        <button id="^" class="ope" onclick="operadorFunc('^')">^</button>
+        <button id="*" class="ope" onclick="operadorFunc('*')">x</button>
+        <button id="c" class="ope" onclick="limpar()">C</button>
+        <br>
+         <button class="ope" value="=" onclick="calcular()">=</button>
+    
+        </div>
+    
+        <div id="res">
+
+        </div>
+
+    </section>
+     <section id="sec">
+        <div id="tabu">
+            <p id="t">Tabuada</p>
+           <p id="t">Numero:<input type="number" name="r" id="txa1"></p>
+            <input type="button" value="tabuada" onclick="tab()">
+            <p>
+                resultado:<br>
+            </p>
+
+        </div>
+        <div id="tab">
+
+        </div>
+    </section>
+    <footer>
+@minhacalculadora.com
+    </footer>
+    <script src="js.js">
+    </script>
+</body>
+</html>
